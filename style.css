@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    
+}
+
+header {
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px;
+  background-color: black;
+  box-shadow: 0px 5px 8px rgba(49, 42, 42, 0.473);
+}
+
+a.telefone{
+
+}
