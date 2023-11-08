@@ -1,29 +1,88 @@
 @charset "UTF-8";
 
+:root{
+  --cor0: #3EA086;
+  --cor1: #283D3B;
+  --cor2: #E0FBFC;
+  --cor3: #81717A;
+  --cor4: #9D8CA1;
+}
+
 * {
   padding: 0px;
   margin: 0px;
+  color: white;
   box-sizing: border-box;
-  list-style: none;
+  font-family: 'Poppins', sans-serif;
   text-decoration: none;
+  list-style: none;
 }
 
-body {
-  max-width: 1200px;
-  margin: 0 auto;
+/*body*/
+
+body {  
+  height: 100vh;
+  background-color: var(--cor1);
+  background-image: url(Imagens/pexels-chelsey-horne-4499765\ \(1\).jpg);
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center; 
+
 }
+
+body::after {
+  z-index: -1;
+  content: '';
+  width: inherit;
+  height: inherit;
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(109deg, rgba(10, 12, 16, 0.8) 15%, rgba(10, 12, 16, 0.5) 50%, rgba(10, 12, 16, 0.8) 85%);
+}
+
+/*Header*/
 
 header {
-  background-color: black;
-  padding: 10px;
+  padding: 20px 2%;
+}
+
+header a:hover{
+  color: #3ea086;
+}
+
+.menu-desktop{
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: space-around;
 }
 
-a.telefone {
+header nav ul li{
+  display: inline-block;
+  padding: 0 20px;
 }
 
-header nav a{
-  color: white;
+.navegação-social img{
+  width: 35px;
+  padding: 0px 6px;
+  opacity: 0.7;
+  transition: all 0.4s;
+}
+
+.navegação-social img:hover{
+  opacity: 1;
+  transform: translateY(-5px)
+}
+
+
+/*section*/
+section{
+  margin: auto;
+  align-items: center;
+}
+
+/*Main*/
+main{
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
 }
