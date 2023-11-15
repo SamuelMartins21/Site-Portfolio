@@ -1,0 +1,23 @@
+.especialidades {
+  padding: 40px 4%;
+}
+
+.especialidades .flex {
+  gap: 60px;
+}
+
+.especialidades .habilidades-box {
+  padding: 40px;
+  font-size: 20px;
+  border: 2px solid white;
+  margin-top: 50px;
+}
+
+section.especialidades .flex {
+  justify-content: space-around;
+}
+
+.habilidades-box img {
+  width: 40px;
+  padding: 2px 2px;
+}
