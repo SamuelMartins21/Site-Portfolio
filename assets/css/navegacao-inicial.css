@@ -1,50 +1,25 @@
-body{
-  background-color: black;
-}
-
-/*body {
-  height: 100vh;
-  background-color: var(--cor1);
-  background-image: url("../Imagens/background-topo.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-body::after {
-  z-index: -1;
-  content: "";
-  width: inherit;
-  height: inherit;
-  position: fixed;
-  inset: 0;
-  background: linear-gradient(
-    109deg,
-    rgba(10, 12, 16, 0.8) 15%,
-    rgba(10, 12, 16, 0.5) 50%,
-    rgba(10, 12, 16, 0.8) 85%
-  );
-}*/
-
 /*Barra de navegação*/
 
-.navegacao-inicial{
+.background-inicial {
   height: 100vh;
-  background-image: 
-        linear-gradient(
-          109deg,
-          rgba(10, 12, 16, 0.8) 15%,
-          rgba(10, 12, 16, 0.5) 50%,
-          rgba(10, 12, 16, 0.8) 85%
-        ),
-        url('../Imagens/background-topo.jpg');
+  background-image: linear-gradient(
+      109deg,
+      rgba(10, 12, 16, 0.8) 15%,
+      rgba(10, 12, 16, 0.5) 50%,
+      rgba(10, 12, 16, 0.8) 85%
+    ),
+    url("../Imagens/background-topo.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 header {
+  background-image: linear-gradient(109deg, rgba(10, 12, 16, 0.6) 15%, rgba(10, 12, 16, 0.3) 50%, rgba(10, 12, 16, 0.6) 85%);
+  ;
   padding: 20px 2%;
+  width: 100%;
+  position: fixed;
 }
 
 header a {
@@ -83,6 +58,66 @@ header nav ul li {
   transform: translateY(-5px);
 }
 
+/*Barra de navegação mobile*/
+
+.menu-mobile-icon img {
+  width: 35px;
+}
+
+.menu-mobile-icon {
+  display: none;
+}
+
+.menu-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 730px) {
+
+  header{
+    background-image: none;
+    position: relative;
+  }
+  
+  .navegação-menu {
+    display: none;
+  }
+
+  .navegação-social {
+    display: none;
+  }
+
+  .menu-mobile-icon{
+    display: block;
+  }
+
+  .menu-mobile-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .menu-mobile{
+    background-color: var(--cor3);
+  }
+
+  .menu-mobile ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 18px;
+  }
+
+  .menu-mobile .item-mobile{
+    display: block;
+    padding-top: 20px;
+  }
+
+  .open{
+    display: block;
+  }
+}
+
 /*Apresentação inicial*/
 
 .topo-site {
@@ -97,7 +132,7 @@ header nav ul li {
 
 .txt-topo-site {
   text-align: center;
-  margin-top: 20vh;
+  margin-top: 30vh;
 }
 
 .txt-topo-site h1 {
@@ -127,3 +162,4 @@ header nav ul li {
   opacity: 1;
   transform: scale(1.15);
 }
+
