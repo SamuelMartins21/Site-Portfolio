@@ -112,13 +112,6 @@ header nav ul li {
   .menu-mobile a:hover{
     color: var(--cor0);
   }
-
-  /*.menu-mobile ul {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 18px;
-  }*/
   
   .menu-mobile ul {
     display: flex;
