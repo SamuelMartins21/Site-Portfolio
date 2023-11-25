@@ -28,6 +28,8 @@
 
   .menu-mobile-icon {
     display: block;
+    position: fixed;
+    z-index: 1;
   }
 
   .menu-mobile-icon button {
