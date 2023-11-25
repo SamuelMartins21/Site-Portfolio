@@ -15,6 +15,7 @@
     background-image: none;
     position: fixed;
     z-index: 1;
+    padding: 8px;
   }
 
   .navegação-menu {
@@ -62,9 +63,13 @@
     font-size: 20px;
   }
 
-  .menu-mobile .item-mobile {
+  .item-mobile {
     display: block;
     padding-top: 20px;
+  }
+
+  .item-mobile a{
+    padding: 5px;
   }
 
   .navegação-social-mobile {
@@ -82,4 +87,6 @@
   .open {
     display: block;
   }
+
+  
 }
