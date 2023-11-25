@@ -1,23 +1,27 @@
-.especialidades {
+.habilidades {
   padding: 40px 4%;
 }
 
-.especialidades .flex {
-  gap: 60px;
+.habilidades-flex {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
 }
 
-.especialidades .habilidades-box {
+.habilidades-box {
   padding: 40px;
   font-size: 20px;
-  border: 2px solid white;
+  border-radius: 20px;
   margin-top: 50px;
+  transition: .2s;
 }
 
-section.especialidades .flex {
-  justify-content: space-around;
+.habilidades-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px var(--cor1);
 }
 
 .habilidades-box img {
-  width: 40px;
+  width: 36px;
   padding: 2px 2px;
 }
