@@ -24,7 +24,7 @@ body{
   background-color: var(--cor3);
 }
 
-.interface {
+.flex {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,4 +48,8 @@ main{
   font-size: 15px;
   font-weight: 300;
   text-align: left;
+}
+
+.interface {
+  padding: 40px 4%;
 }
