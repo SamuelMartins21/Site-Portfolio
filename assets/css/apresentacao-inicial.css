@@ -2,12 +2,6 @@
   padding: 40px 4%;
 }
 
-.interface {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .txt-topo-site {
   text-align: center;
   margin-top: 30vh;
