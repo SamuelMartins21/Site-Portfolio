@@ -9,12 +9,13 @@
   align-items: center;
   flex-direction: column;
   gap: 10px;
-  width: 35%;
-  height: 50%;
+  width: 350px;
+  height: 500px;
   border-radius: 20px;
   margin-top: 40px;
   padding: 30px;
-  background-color: var(--cor1);
+  cursor: pointer;
+  background-color: #212429;
   transition: 0.2s;
 }
 
@@ -34,6 +35,12 @@
     width: 300px;
     height: 150px;
     border-radius: 20px;
-    background-image: url('../Imagens/ChatBotWhatsapp1.png');
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.link-projeto{
+    width: 100%;
+    box-sizing: border-box;
 }
