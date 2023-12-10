@@ -4,7 +4,7 @@ footer{
 
 footer .flex{
     justify-content: space-between;
-    gap: 3px;
+    gap: 4px;
 }
 
 footer .linha-footer{
@@ -25,4 +25,11 @@ footer .linha-footer img{
 
 footer .assinatura-footer{
     text-align: center;
+}
+
+footer .email-footer{
+    margin: 0px 20px;
+}
+footer .telefone-footer{
+    margin: 0px 20px;
 }

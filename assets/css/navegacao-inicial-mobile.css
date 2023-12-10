@@ -10,12 +10,16 @@
   display: none;
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 1145px) {
   header {
     background-image: none;
     position: fixed;
     z-index: 1;
     padding: 8px;
+  }
+
+  .flex{
+    flex-wrap: wrap;
   }
 
   .navegação-menu {
@@ -27,6 +31,7 @@
   }
 
   .menu-mobile-icon {
+    padding: 20px;
     display: block;
     position: fixed;
     z-index: 1;
@@ -90,5 +95,5 @@
     display: block;
   }
 
-  
+
 }
