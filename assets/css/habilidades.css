@@ -1,3 +1,7 @@
+.habilidades{
+  padding: 80px 4%;
+}
+
 .habilidades-flex {
   display: flex;
   justify-content: space-around;
@@ -7,7 +11,7 @@
 .habilidades-box {
   padding: 40px;
   border-radius: 20px;
-  margin-top: 50px;
+  margin-top: 40px;
   transition: .2s;
 }
 

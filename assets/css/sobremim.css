@@ -1,3 +1,7 @@
+.sobre{
+    padding: 80px 4%;
+    box-shadow: 0px -20px 40px -10px #ffffff1D;
+}
 .sobre .flex{
     align-items: center;
     gap: 60px;
