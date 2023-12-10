@@ -11,6 +11,10 @@ footer .linha-footer{
     padding: 20px;
 }
 
+footer a:hover{
+    text-decoration: underline;
+}
+
 .borda{
     border-top: 2px solid var(--cor0);
 }

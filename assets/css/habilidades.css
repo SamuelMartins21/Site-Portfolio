@@ -4,11 +4,14 @@
 
 .habilidades-flex {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   gap: 40px;
 }
 
 .habilidades-box {
+  flex: 0 0 calc(33.3333% - 30px);
+  box-sizing: border-box;
   padding: 40px;
   border-radius: 20px;
   margin-top: 40px;

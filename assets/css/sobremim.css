@@ -20,3 +20,7 @@
     margin: 20px 0;
     text-align: justify;
 }
+
+.sobre img{
+    border-radius: 25px;
+}
