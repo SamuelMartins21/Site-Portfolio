@@ -22,3 +22,7 @@ footer a:hover{
 footer .linha-footer img{
     width: 20px;
 }
+
+footer .assinatura-footer{
+    text-align: center;
+}
