@@ -28,10 +28,6 @@ body{
   display: flex;
 }
 
-main{
-  padding: 20px;
-}
-
 .titulo-h2{
   font-size: 40px;
   font-weight: 700;

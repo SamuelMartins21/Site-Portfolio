@@ -1,0 +1,20 @@
+footer{
+    box-shadow: 0 0 40px 10px #ffffff1D;
+}
+
+footer .flex{
+    justify-content: space-between;
+    gap: 3px;
+}
+
+footer .linha-footer{
+    padding: 20px;
+}
+
+.borda{
+    border-top: 2px solid var(--cor0);
+}
+
+footer .linha-footer img{
+    width: 20px;
+}
