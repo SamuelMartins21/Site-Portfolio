@@ -10,7 +10,7 @@
 }
 
 .habilidades-box {
-  flex: 0 0 calc(33.3333% - 30px);
+  flex: 1 0 calc(33.3333% - 30px);
   box-sizing: border-box;
   padding: 40px;
   border-radius: 20px;
