@@ -23,6 +23,10 @@ footer .linha-footer img{
     width: 20px;
 }
 
+footer .assinatura-footer img{
+    width: 180px;
+}
+
 footer .assinatura-footer{
     text-align: center;
 }
