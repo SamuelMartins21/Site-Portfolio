@@ -18,8 +18,13 @@
     padding: 8px;
   }
 
-  .flex {
+  .flex {  
     flex-wrap: wrap;
+  }
+
+  .sobre .flex{
+    flex-wrap: nowrap;
+    flex-direction: column;
   }
 
   .navegação-menu {
