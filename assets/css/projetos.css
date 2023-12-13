@@ -45,7 +45,15 @@ section.projetos{
     background-repeat: no-repeat;
 }
 
+.img-tec img{
+  width: 35px;
+}
+
 .link-projeto{
     width: 100%;
     box-sizing: border-box;
+}
+
+.emojis-proj .img{
+  width: 35px;
 }
