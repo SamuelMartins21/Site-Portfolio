@@ -27,6 +27,10 @@
     flex-direction: column;
   }
 
+  .email-footer .flex{
+    display: block;
+  }
+
   .navegação-menu {
     display: none;
   }
