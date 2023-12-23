@@ -27,6 +27,12 @@
     flex-direction: column;
   }
 
+  .habilidades .habilidades-flex{
+    flex-wrap: nowrap;
+    flex-direction: column;
+    text-align: center;
+  }
+
   .email-footer .flex{
     display: block;
   }
