@@ -33,22 +33,24 @@ A partir deste ponto, você pode explorar o código-fonte, fazer modificações 
 
 O projeto é organizado da seguinte maneira:
 
-- **/assets**: Contém arquivos estáticos, como imagens, fontes e outros recursos.
+- **/assets**:  Pasta para armazenar recursos estáticos, como imagens e códigos CSS e JavaScript adicionais.
+  
+  - **/Imagens**: Armazena imagens utilizadas no projeto.
 
-- **/css**: Armazena arquivos CSS.
+  - **/css**: Armazena arquivos CSS.
 
-  - `/globais.css`: Responsável pelas configurações globais do CSS.
-  - `/apresentação-inicial.css`: Responsável pela apresentação inicial do site.
-  - `/navegação-inicial.css`: Responsável pela navegação nós topicos principais do site.
-  - `/responsivo.css`: Responsável pela responsividade do site.
-  - `/habilidades.css`: Responsável pelo estilo do tópico `Habilidades e tecnologias`.
-  - `/sobremim.css`: Responsável pelo estilo do tópico `Sobre mim`.
-  - `/projetos.css`: Responsável pelo estilo do tópico `projetos`.
-  - `/footer.css`: Responsável pelo estilo do footer do projeto.
+    - `/globais.css`: Responsável pelas configurações globais do CSS.
+    - `/apresentação-inicial.css`: Responsável pela apresentação inicial do site.
+    - `/navegação-inicial.css`: Responsável pela navegação nós topicos principais do site.
+    - `/responsivo.css`: Responsável pela responsividade do site.
+    - `/habilidades.css`: Responsável pelo estilo do tópico `Habilidades e tecnologias`.
+    - `/sobremim.css`: Responsável pelo estilo do tópico `Sobre mim`.
+    - `/projetos.css`: Responsável pelo estilo do tópico `projetos`.
+    - `/footer.css`: Responsável pelo estilo do footer do projeto.
 
-- **/js**: Armazena arquivos JavaScript.
+  - **/js**: Armazena arquivos JavaScript.
 
-  - `/script.js`: Arquivo principal de scripts.
+    - `/script.js`: Arquivo principal de scripts.
 
 - **/index.html**: Página principal do site.
 
