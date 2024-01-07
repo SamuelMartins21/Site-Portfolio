@@ -28,3 +28,30 @@ Se você deseja baixar o projeto localmente para explorar o código ou contribui
 
 4. Navegue até o diretório do projeto: `cd seu-projeto`.
 A partir deste ponto, você pode explorar o código-fonte, fazer modificações e executar o site localmente, se necessário.
+
+## Estrutura de Pastas
+
+O projeto é organizado da seguinte maneira:
+
+- **/assets**: Contém arquivos estáticos, como imagens, fontes e outros recursos.
+
+- **/css**: Armazena arquivos CSS.
+
+  - `/globais.css`: Responsável pelas configurações globais do CSS.
+  - `/apresentação-inicial.css`: Responsável pela apresentação inicial do site.
+  - `/navegação-inicial.css`: Responsável pela navegação nós topicos principais do site.
+  - `/responsivo.css`: Responsável pela responsividade do site.
+  - `/habilidades.css`: Responsável pelo estilo do tópico `Habilidades e tecnologias`.
+  - `/sobremim.css`: Responsável pelo estilo do tópico `Sobre mim`.
+  - `/projetos.css`: Responsável pelo estilo do tópico `projetos`.
+  - `/footer.css`: Responsável pelo estilo do footer do projeto.
+
+- **/js**: Armazena arquivos JavaScript.
+
+  - `/script.js`: Arquivo principal de scripts.
+
+- **/index.html**: Página principal do site.
+
+- **/README.md**: Documentação do projeto.
+
+
