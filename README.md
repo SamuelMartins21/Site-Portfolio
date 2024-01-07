@@ -56,4 +56,7 @@ O projeto é organizado da seguinte maneira:
 
 - **/README.md**: Documentação do projeto.
 
+## Licença
+
+Este projeto é licenciado sob a [Licença MIT](LICENSE).
 
