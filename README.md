@@ -12,7 +12,7 @@ Este site foi criado com o objetivo de demonstrar minhas habilidades como desenv
 Como este projeto é um site frontend que já está sendo executado em um servidor, não há necessidade de instalação local. Basta acessar o site usando um navegador web moderno.
 
 1. Abra seu navegador favorito.
-2. Digite o URL do site na barra de endereço: `https://samuelmartins21.github.io/Portfolio/`
+2. Digite o URL do site na barra de endereço: `https://samuelmartins21.github.io/Site-Portfolio/`
 3. Pressione Enter e aproveite a experiência!
 
 ## Baixando o Projeto Localmente
