@@ -6,6 +6,5 @@ function menuShow(){
     } else {
         menuMobile.classList.add('open');
         document.querySelector('.icon-mobile').src = "assets/Imagens/fechar-icon-mobile.png";
-
     }
 }
