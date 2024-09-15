@@ -1,6 +1,6 @@
 # Site Portfolio
 
-Este site foi criado com o objetivo de demonstrar minhas habilidades como desenvolvedor de uma maneira mais visual e fácil de entender. Além disso, visa aprimorar minhas competências em desenvolvimento front-end. Acesse o site clicando <a href="https://samuelmartins21.github.io/Site-Portfolio/" target="_blank" >aqui</a>. [Google](https://www.google.com)
+Este site foi criado com o objetivo de demonstrar minhas habilidades como desenvolvedor de uma maneira mais visual e fácil de entender. Além disso, visa aprimorar minhas competências em desenvolvimento front-end. Acesse o site clicando <a href="https://samuelmartins21.github.io/Site-Portfolio/">aqui</a>.
 
 
 ## Pré-requisitos
