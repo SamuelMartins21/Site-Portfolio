@@ -5,7 +5,7 @@ Este site foi criado com o objetivo de demonstrar minhas habilidades como desenv
 ## Pré-requisitos
 
 - Navegador Web Moderno (Google Chrome, Mozilla Firefox, Safari, etc.)
-- Conexão à Internet (para carregar recursos externos, se houver)
+- Conexão à Internet
 
 ## Instalação
 
